@@ -28,8 +28,18 @@
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-mocha-test": "^0.12.1",
+    "jquery": "^2.1.1",
+    "jsdom": "^1.0.3",
     "mocha": "~1.21.5",
+    "proxyquire": "^1.0.1",
     "sinon": "~1.10.3",
     "sinon-chai": "~2.6.0"
+  },
+  "dependencies": {
+    "abstractor": "git+https://git@github.com/collingo/abstractor",
+    "observer": "git+https://git@github.com/collingo/observer",
+    "q": "^1.0.1",
+    "walker": "git+https://git@github.com/collingo/walker",
+    "walker-dom": "git+https://git@github.com/collingo/walker-dom"
   }
 }
