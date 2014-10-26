@@ -38,7 +38,6 @@
   "dependencies": {
     "abstractor": "git+https://git@github.com/collingo/abstractor",
     "observer": "git+https://git@github.com/collingo/observer",
-    "q": "^1.0.1",
     "walker": "git+https://git@github.com/collingo/walker",
     "walker-dom": "git+https://git@github.com/collingo/walker-dom"
   }
