@@ -33,6 +33,9 @@ module.exports = function(mod, tpl, dom) {
 	walker(new WalkerDom(), dom, function(node) {
 		if(!(node.nodeName === "#text" && node.data.charAt(0) === "\n")) {
 			var expected = tplArray[nodeWalkCount];
+      while(expected.close) {
+        expected = tplArray[++nodeWalkCount];
+      }
 			if(expected.type === ">") {
 				bindData(expected.bind, node);
 			} else {
